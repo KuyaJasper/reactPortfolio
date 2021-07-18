@@ -1,5 +1,9 @@
 import React from 'react'
+//COMPONENTS
 import About from './pages/AboutMe';
+import MyName from './components/AboutComponents/MyName';
+
+//Style Components
 import { Navbar } from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
 import { Nav } from 'react-bootstrap';
@@ -20,6 +24,7 @@ function App() {
 </Nav>
 </Container>
 </Navbar>
+<MyName/>
 <About/>
     </div>
   );
