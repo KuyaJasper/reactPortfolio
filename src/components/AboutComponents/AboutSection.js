@@ -1,5 +1,5 @@
 import React from 'react'
-import Selfie from '../Assets/HawaiianSelfie.jpg'
+import Selfie from '../../Assets/HawaiianSelfie.jpg'
 
 const AboutSection = () => {
 
