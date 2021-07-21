@@ -1,13 +1,14 @@
 import React from "react";
 import Selfie from "../../Assets/HawaiianSelfie.jpg";
 import styled from "styled-components";
+import Resume from "../../Assets/Resume 2021.pdf";
 
 const AboutMeStyle = styled.div`
-  background: blue;
+  background: #000400;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 90vh;
+  height: 100vh;
 
   .description {
     background: red;
@@ -15,22 +16,26 @@ const AboutMeStyle = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 600px;
+    min-width: 200px;
     margin-left: 20%;
   }
 
   .HawaiianSelfie {
-    height: 50%;
-    width: 50%;
+    height: 75%;
+    width: 75%;
     margin-top: 1rem;
     margin-left: 20%;
   }
 
   button {
-    width: 50%;
+    width: 20%;
   }
 `;
 
+
+const downLoadFile= () => {
+  window.location.href = {Resume}
+}
 const AboutSection = () => {
   return (
     <div>
@@ -43,7 +48,10 @@ const AboutSection = () => {
             Currently attending a Full stack development coding bootcamp through
             Rutgers University.
           </p>
-          <button>View My Resume</button>
+          <button onClick={(e) => {
+      e.preventDefault();
+      downLoadFile();
+      }}>View My Resume</button>
         </div>
         <div className="image">
           <img

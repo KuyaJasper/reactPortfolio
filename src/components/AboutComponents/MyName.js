@@ -4,7 +4,7 @@ import Lantern from '../../Assets/LanternNight.jpg'
 
 const NameStyle= styled.div`
 background-image: url(${Lantern});
-height: 90vh;
+height: 100vh;
 display: flex;
 flex-direction: column;
 justify-content: center;
