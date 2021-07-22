@@ -81,12 +81,12 @@ export default Footer;
 const FooterStyle = styled.div`
   background-color: RGBA(23, 23, 23);
   display: flex;
-  justify-content: space-space-around;
+  justify-content: flex-end;
   color: whitesmoke;
 
   h4 {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Kaushan Script", cursive;
+
   }
   ul {
     display: flex;
