@@ -32,9 +32,7 @@ const AboutMeStyle = styled.div`
 `;
 
 
-const downLoadFile= () => {
-  window.location.href = {Resume}
-}
+
 const AboutSection = () => {
   return (
     <div>
