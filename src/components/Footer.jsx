@@ -22,9 +22,8 @@ const Footer = ()=> {
             <div className="contact">
                 <h4>Contact</h4>
                 <ul>
-                    <li>(908)472-2099</li>
-                    <li>abarquezj1@gmail.com</li>
-                    <li>Edison, NJ</li>
+                    <li>Phone: (908)472-2099</li>
+                    <li>Email: abarquezj1@gmail.com</li>
                 </ul>
 
             </div>
@@ -40,6 +39,7 @@ const FooterStyle = styled.div`
 background-color:RGBA(23, 23, 23); 
 display: flex;
 justify-content: space-space-around;
+color: whitesmoke;
 ul{
     display: flex;
     flex-direction: column;
@@ -56,12 +56,13 @@ a{
 }
 
 .navigation{
-    margin-left: 1re;
+    margin-left: 1rem;
     display: flex;
     align-items: center;
 }
 
 .contact{
+    margin-left: 1rem;
     display: flex;
     align-items: center;
 }

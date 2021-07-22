@@ -1,33 +1,33 @@
 import React from 'react'
 import styled from 'styled-components';
-import Sunset from '../../Assets/LanternSunset.jpg';
+import Sunrise from '../../Assets/LanternSunrise.jpg'
 
-const ProjectSection = () => {
+const ContactSection = () => {
     return (
-        <ProjectStyle>
+        <ContactStyle>
             <div className="titleContainer">
-                <h1 className="title" >Projects</h1>
+                <h1 className="title" >Contact Info</h1>
             </div>
         <div className="projectContainer" >
             <h1>Projects Go Here</h1>
         </div>
-        </ProjectStyle>
+        </ContactStyle>
     )
   };
-  export default ProjectSection;
+  export default ContactSection;
 
 
 
 
-  const ProjectStyle = styled.div `
+  const ContactStyle = styled.div `
   .titleContainer{
-    background-image: url(${Sunset});
+    background-image: url(${Sunrise});
+    height: 100vh;
     background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
 max-height: 100%;
-    height: 100vh;
   }
   .title{
     display: flex;

@@ -2,8 +2,30 @@ import React from 'react';
 import styled from 'styled-components';
 import Lantern from '../../Assets/LanternNight.jpg'
 
+
+const MyName = () => {
+    return (
+    <NameStyle>
+        <div className="nameContainer">
+        <h1>My name is</h1>
+        <h2 className="Jasper">Jasper</h2>
+        <br />
+        <h1>I'm a Front End Developer</h1>
+        </div>
+        </NameStyle>
+    )
+
+}
+
+export default MyName ;
+
 const NameStyle= styled.div`
 background-image: url(${Lantern});
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+max-height: 100%;
 height: 100vh;
 display: flex;
 flex-direction: column;
@@ -15,6 +37,12 @@ h1{
     font-size: 50px;
 
 
+}
+
+.nameContainer{
+    display: flex;
+align-items: center;
+    flex-direction: column;
 }
 
 .Jasper{
@@ -38,18 +66,3 @@ h1{
 
 `;
 
-const MyName = () => {
-    return (
-        <div>
-            <NameStyle>
-        <h1>My name is</h1>
-        <h2 className="Jasper">Jasper</h2>
-        <br />
-        <h1>I'm a Front End Developer</h1>
-        </NameStyle>
-    </div>
-    )
-
-}
-
-export default MyName ;

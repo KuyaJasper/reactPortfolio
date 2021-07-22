@@ -2,36 +2,6 @@ import React from "react";
 import Selfie from "../../Assets/HawaiianSelfie.jpg";
 import styled from "styled-components";
 
-const AboutMeStyle = styled.div`
-  background: #000400;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-
-  .description {
-    background: red;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-width: 200px;
-    margin-left: 20%;
-  }
-
-  .HawaiianSelfie {
-    height: 75%;
-    width: 75%;
-    margin-top: 1rem;
-    margin-left: 20%;
-  }
-
-  button {
-    width: 20%;
-  }
-`;
-
-
 
 const AboutSection = () => {
   return (
@@ -59,3 +29,41 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
+
+const AboutMeStyle = styled.div`
+  background: #000400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  color: whitesmoke;
+
+  .description {
+    background-color:RGBA(23, 23, 23); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+    border-radius: 1rem;
+  }
+
+  .HawaiianSelfie {
+    height: 75%;
+    width: 75%;
+    margin-left: 20%;
+    margin-right: 5rem;
+    border-radius: 1rem;
+  }
+
+  p{
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+`;
+
+
+
+
