@@ -1,6 +1,9 @@
 import React from 'react'
 import styled from 'styled-components';
 import Sunset from '../../Assets/LanternSunset.jpg';
+import ProjectCards from './ProjectCards';
+
+
 
 const ProjectSection = () => {
     return (
@@ -8,9 +11,7 @@ const ProjectSection = () => {
             <div className="titleContainer">
                 <h1 className="title" >Projects</h1>
             </div>
-        <div className="projectContainer" >
-            <h1>Projects Go Here</h1>
-        </div>
+            <ProjectCards/>
         </ProjectStyle>
     )
   };
@@ -20,6 +21,7 @@ const ProjectSection = () => {
 
 
   const ProjectStyle = styled.div `
+
   .titleContainer{
     background-image: url(${Sunset});
     background-position: center;
@@ -29,6 +31,7 @@ background-attachment: fixed;
 max-height: 100%;
     height: 100vh;
   }
+
   .title{
     display: flex;
     justify-content: flex-end;
@@ -48,12 +51,6 @@ max-height: 100%;
     0 0 5px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.2),
     0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2),
     0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.3);}
-
-    .projectContainer{
-        display: flex;
-        height: 100vh;
-        background: black;
-    }
 
 
   

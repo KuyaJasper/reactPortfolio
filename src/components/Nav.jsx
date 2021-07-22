@@ -27,9 +27,11 @@ export default Nav;
 
 
 const NavStyle = styled.div `
-background-color:RGBA(23, 23, 23); 
+background-color:RGBA(23, 23, 23);
 display: flex;
 justify-content: space-between;
+align-items: center;
+height: 10vh;
 ul{
     display: flex;
     list-style: none;
