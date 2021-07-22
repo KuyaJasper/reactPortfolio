@@ -83,6 +83,7 @@ const FooterStyle = styled.div`
   display: flex;
   justify-content: flex-end;
   color: whitesmoke;
+  width: 100%;
 
   h4 {
     font-family: "Kaushan Script", cursive;

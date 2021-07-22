@@ -27,6 +27,7 @@ background-size: cover;
 background-attachment: fixed;
 max-height: 100%;
 height: 100vh;
+width: 100%;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -63,6 +64,24 @@ align-items: center;
     0 0 5px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.2),
     0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.2),
     0 10px 10px rgba(0, 0, 0, 0.2), 0 20px 20px rgba(0, 0, 0, 0.3);}
+
+
+
+    //SmortPhones
+  @media only screen 
+and (min-device-width : 200px) 
+and (max-device-width : 1024px) {
+        .Jasper {
+font-size: 10rem;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+  }
+}
+
+
+    
 
 `;
 

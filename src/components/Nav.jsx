@@ -6,7 +6,7 @@ const Nav = ()=> {
     return (
         <NavStyle>
         <h1>Jasper Abarquez</h1>
-            <div className= "links">
+
                <ul>
                    <li>
                        <Link to="/">About Me</Link>
@@ -18,7 +18,7 @@ const Nav = ()=> {
                        <Link to="/contact">Contact</Link>
                    </li>
                </ul>
-            </div>
+
         </NavStyle>
     )
 }
@@ -32,9 +32,11 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 height: 10vh;
+width: 100%;
 ul{
     display: flex;
     list-style: none;
+    margin-right: 2rem;
 }
 li{
     padding-left: 1rem;

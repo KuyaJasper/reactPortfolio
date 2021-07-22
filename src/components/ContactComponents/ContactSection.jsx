@@ -177,4 +177,17 @@ const ContactStyle = styled.div`
     width: 60%;
     height: 60%;
   }
+
+
+  //SmortPhones
+  @media only screen 
+and (min-device-width : 200px) 
+and (max-device-width : 1024px) {
+        .contactInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;}
+    text-align: center;
+  }
 `;

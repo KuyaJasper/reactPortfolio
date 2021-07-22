@@ -36,6 +36,7 @@ const AboutMeStyle = styled.div`
   align-items: center;
   justify-content: center;
   height: 90vh;
+  width: 100%;
   color: whitesmoke;
 
   .description {
@@ -44,7 +45,7 @@ const AboutMeStyle = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 10rem;
+    margin-left: 5rem;
     border-radius: 1rem;
     min-width: 50%;
     
@@ -54,6 +55,7 @@ const AboutMeStyle = styled.div`
   .image{
     margin-top: 1rem;
     margin-bottom: 1rem;
+    
   }
   .HawaiianSelfie {
     height: 60%;
@@ -68,6 +70,24 @@ const AboutMeStyle = styled.div`
     align-items: center;
     text-align: center;
   }
+
+
+  @media only screen 
+and (min-device-width : 200px) 
+and (max-device-width : 1024px) {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100%;
+width: 100%;
+
+.description{
+margin-right: 5rem;
+margin-top: 2rem;
+}
+
+}
 `;
 
 
