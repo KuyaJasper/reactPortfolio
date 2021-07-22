@@ -175,19 +175,25 @@ const ContactStyle = styled.div`
     margin-top: 1rem;
     margin-bottom: 1rem;
     width: 60%;
-    height: 60%;
+    height: 70%;
   }
 
 
   //SmortPhones
   @media only screen 
 and (min-device-width : 200px) 
-and (max-device-width : 1024px) {
+and (max-device-width : 720px) {
         .contactInfo {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;}
     text-align: center;
+    margin-top: 2rem;
+  }
+
+  .title{
+    display: flex;
+    font-size: 10rem;
   }
 `;
