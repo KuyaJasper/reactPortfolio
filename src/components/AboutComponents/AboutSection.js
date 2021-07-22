@@ -44,13 +44,20 @@ const AboutMeStyle = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 5rem;
+    margin-left: 10rem;
     border-radius: 1rem;
+    min-width: 50%;
+    
+    
   }
 
+  .image{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
   .HawaiianSelfie {
-    height: 75%;
-    width: 75%;
+    height: 60%;
+    width: 60%;
     margin-left: 20%;
     border-radius: 1rem;
   }

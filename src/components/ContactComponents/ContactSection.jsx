@@ -18,8 +18,8 @@ const ContactSection = () => {
       </div>
       <div className="contactContainer">
         <h1>Let's Connect!</h1>
-        <h4>You Can Reach Me At:</h4>
         <div className="contactInfo">
+        <h4>You Can Reach Me At:</h4>
           {/* First Column */}
           <ul className="social">
             <li>
@@ -45,8 +45,8 @@ const ContactSection = () => {
                   size="3x"
                   color="whitesmoke"
                 />
-                {' '}
-                abarquezj1@gmail.com
+                <span>abarquezj1@gmail.com</span>
+
               </a>
             </li>
             <li>
@@ -61,10 +61,6 @@ const ContactSection = () => {
             {/* SecondColumn */}
           </ul>
           <ul className="social2">
-            <li>
-              <FontAwesomeIcon icon={faUser} size="3x" color="whitesmoke" />
-              <span>Jasper Abarquez</span>
-            </li>
             <li>
               <a
                 className="linkedin"
@@ -94,13 +90,13 @@ const ContactSection = () => {
             <li>
               <a
                 className="github"
-                href="https://github.com/KuyaJasper"
+                href="https://drive.google.com/file/d/1FqT6SwR3VUuAjfcKzZZHwo-WnJyAXLPz/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FontAwesomeIcon icon={faFile} size="3x" color="whitesmoke" />
+                <span>View Resume</span>
               </a>
-              <span>View Resume</span>
             </li>
           </ul>
         </div>
@@ -167,14 +163,18 @@ const ContactStyle = styled.div`
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    h1{font-size: 10vh;
+  }
   }
   .contactInfo {
     background-color: RGBA(23, 23, 23);
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     border-radius: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    width: 60%;
+    height: 60%;
   }
 `;
