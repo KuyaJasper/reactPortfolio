@@ -52,7 +52,6 @@ const AboutMeStyle = styled.div`
     height: 75%;
     width: 75%;
     margin-left: 20%;
-    margin-right: 5rem;
     border-radius: 1rem;
   }
 

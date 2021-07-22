@@ -46,6 +46,7 @@ a{
 h1{
     padding-left: 1rem;
     color: whitesmoke;
+    font-family: "Kaushan Script", cursive;
 }
 .links{
     

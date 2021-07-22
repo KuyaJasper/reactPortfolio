@@ -2,6 +2,13 @@ import React from 'react'
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
+//ICONS
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLinkedin,
+  faGithub,
+} from "@fortawesome/free-brands-svg-icons";
+
 const Footer = ()=> {
     return (
         <FooterStyle>
@@ -26,6 +33,30 @@ const Footer = ()=> {
                     <li>Email: abarquezj1@gmail.com</li>
                 </ul>
 
+            </div>
+            <div className="socialContainer">
+                <ul className="social">
+                <li>
+                <a
+                  className="linkedin"
+                  href="https://www.linkedin.com/in/jasper-abarquez/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FontAwesomeIcon icon={faLinkedin} size="3x" color="blue" />
+                </a>
+              </li>
+              <li>
+                <a
+                  className="github"
+                  href="https://github.com/KuyaJasper"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <FontAwesomeIcon icon={faGithub} size="3x" color="rgb(220,20,60)" />
+                </a>
+              </li>
+                </ul>
             </div>
             </FooterStyle>
 
@@ -65,6 +96,12 @@ a{
     margin-left: 1rem;
     display: flex;
     align-items: center;
+}
+.social{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 
 `
