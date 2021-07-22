@@ -7,10 +7,6 @@ import MyName from './components/AboutComponents/MyName';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 
-//Style Components
-import './styling/App.css'
-
-
 //Router
 import { Switch, Route, useLocation} from "react-router-dom";
 
