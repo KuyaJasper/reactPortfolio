@@ -15,6 +15,8 @@
 
 For development of this project, I used [React](https://reactjs.org/)
 
+I did CSS styling with [Styled Componenets](https://styled-components.com/), which allowed me to keep all the styling and the JSX code in one file, instead of referencing multiple.
+
 # Acceptance Criteria
 
 ```md
