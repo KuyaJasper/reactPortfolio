@@ -5,7 +5,6 @@ import styled from 'styled-components';
 const Nav = ()=> {
     return (
         <NavStyle>
-        <div className="Name">
         <h1>Jasper Abarquez</h1>
             <div className= "links">
                <ul>
@@ -20,7 +19,6 @@ const Nav = ()=> {
                    </li>
                </ul>
             </div>
-        </div>
         </NavStyle>
     )
 }
@@ -29,8 +27,9 @@ export default Nav;
 
 
 const NavStyle = styled.div `
-background:grey;
-z-index: 2;
+background-color:RGBA(23, 23, 23); 
+display: flex;
+justify-content: space-between;
 ul{
     display: flex;
     list-style: none;
@@ -42,17 +41,13 @@ li{
 }
 a{
     text-decoration: none;
-    color: white;
+    color: whitesmoke;
+}
+h1{
+    padding-left: 1rem;
+    color: whitesmoke;
 }
 .links{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     
-    
-}
-.Name{
-    display: flex;
-    justify-content: flex-start;
 }
 `

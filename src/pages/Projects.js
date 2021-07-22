@@ -1,11 +1,10 @@
 import React from 'react'
+import ProjectSection from '../components/ProjectComponents/ProjectSection';
 
 
 const Projects = ()=> {
     return(
-        <div>
-            <h1>Projects</h1>
-        </div>
+            <ProjectSection/>
     )
 }
 
