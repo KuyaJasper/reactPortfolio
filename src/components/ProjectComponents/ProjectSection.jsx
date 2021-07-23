@@ -65,7 +65,7 @@ and (max-device-width : 720px) {
 
   .title{
     display: flex;
-    font-size: 10rem;
+    font-size: 5rem;
   }
 
   

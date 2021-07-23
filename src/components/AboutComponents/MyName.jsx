@@ -72,7 +72,7 @@ align-items: center;
 and (min-device-width : 200px) 
 and (max-device-width : 1024px) {
         .Jasper {
-font-size: 10rem;
+font-size: 5rem;
 display: flex;
 align-items: center;
 justify-content: center;
