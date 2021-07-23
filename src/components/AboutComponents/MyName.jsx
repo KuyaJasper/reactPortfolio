@@ -75,6 +75,7 @@ and (max-device-width : 1024px) {
 font-size: 5rem;
 display: flex;
 align-items: center;
+text-align: center;
 justify-content: center;
 flex-direction: column;
   }
