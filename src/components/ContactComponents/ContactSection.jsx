@@ -58,9 +58,6 @@ const ContactSection = () => {
               <span>Edison, New Jersey</span>
             </li>
 
-            {/* SecondColumn */}
-          </ul>
-          <ul className="social2">
             <li>
               <a
                 className="linkedin"
@@ -163,36 +160,50 @@ const ContactStyle = styled.div`
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    h1{font-size: 10vh;
+    h1{font-size: 8vh;
   }
   }
   .contactInfo {
     background-color: RGBA(23, 23, 23);
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     border-radius: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     width: 60%;
-    height: 70%;
+    height: 80%;
+    .social{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 1rem;
+    }
   }
 
 
   //SmortPhones
   @media only screen 
 and (min-device-width : 200px) 
-and (max-device-width : 720px) {
+and (max-device-width : 1024px) {
         .contactInfo {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;}
     text-align: center;
+
+    li{
+      display: flex;
+      text-align: center;
+    }
   }
 
   .title{
     display: flex;
     font-size: 5rem;
   }
+
+  
 `;

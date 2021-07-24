@@ -81,7 +81,7 @@ flex-wrap: wrap;
 flex-direction: inherit;
 align-items: center;
 height: 100%;
-
+padding-left: 0%;
 
 .description{
   flex-direction: column;

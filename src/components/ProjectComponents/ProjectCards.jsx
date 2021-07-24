@@ -219,5 +219,13 @@ and (max-device-width : 1024px) {
     padding-bottom: 2rem;
   }
 
+  .projectCard{
+    width: 80%;
+    img{
+      height: 90%;
+      width: 90%;
+    }
+  }
+
 }
 `;
