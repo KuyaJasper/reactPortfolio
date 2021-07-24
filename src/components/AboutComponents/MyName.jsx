@@ -27,7 +27,6 @@ background-size: cover;
 background-attachment: fixed;
 max-height: 100%;
 height: 100vh;
-width: 100%;
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -72,7 +71,7 @@ justify-content: center;
     //SmortPhones
   @media only screen 
 and (min-device-width : 200px) 
-and (max-device-width : 1024px) {
+and (max-device-width : 768px) {
         .Jasper {
 font-size: 5rem;
 display: flex;

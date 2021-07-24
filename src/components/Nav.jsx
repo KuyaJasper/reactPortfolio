@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const Nav = ()=> {
     return (
         <NavStyle>
-        <h1>Jasper Abarquez</h1>
+        <h1><Link to="/">Jasper Abarquez</Link></h1>
 
                <ul>
                    <li>
@@ -32,7 +32,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 height: 10vh;
-width: 100%;
+text-align: center;
 ul{
     display: flex;
     list-style: none;
@@ -54,5 +54,19 @@ h1{
 }
 .links{
     
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+a{
+    font-size: 70%;
+}
+h1{
+    font-size: 2rem;
+}
+
+
 }
 `

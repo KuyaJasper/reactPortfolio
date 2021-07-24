@@ -83,7 +83,6 @@ const FooterStyle = styled.div`
   display: flex;
   justify-content: flex-end;
   color: whitesmoke;
-  width: 100%;
 
   h4 {
     font-family: "Kaushan Script", cursive;
@@ -121,4 +120,19 @@ const FooterStyle = styled.div`
     align-items: center;
     flex-direction: row;
   }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+
+
+}
+
+
+
 `;

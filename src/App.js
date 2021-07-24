@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import MyName from "./components/AboutComponents/MyName";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
+import GlobalStyle from "./components/GlobalStyle";
 
 //Router
 import { Switch, Route, useLocation } from "react-router-dom";
@@ -16,6 +17,7 @@ function App() {
 
   return (
     <div className="App">
+      <GlobalStyle/>
       <Nav />
       <Switch location={location} key={location.pathname}>
         <Route path="/" exact>
