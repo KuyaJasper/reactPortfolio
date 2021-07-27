@@ -193,9 +193,6 @@ and (max-device-width : 1024px) {
     justify-content: center;
     flex-direction: column;}
     text-align: center;
-    width: 60%;
-    height: 80%;
-
     li{
       display: flex;
       text-align: center;
