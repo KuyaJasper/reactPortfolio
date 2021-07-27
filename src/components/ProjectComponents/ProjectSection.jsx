@@ -55,6 +55,7 @@ max-height: 100%;
   @media only screen 
 and (min-device-width : 200px) 
 and (max-device-width : 720px) {
+  background-attachment: fixed;
         .titleContainer {
     display: flex;
     align-items: center;

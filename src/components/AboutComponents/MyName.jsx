@@ -72,6 +72,8 @@ justify-content: center;
   @media only screen 
 and (min-device-width : 200px) 
 and (max-device-width : 768px) {
+  background-attachment: fixed;
+
         .Jasper {
 font-size: 5rem;
 display: flex;

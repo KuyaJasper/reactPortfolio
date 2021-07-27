@@ -19,7 +19,6 @@ const ContactSection = () => {
       <div className="contactContainer">
         <h1>Let's Connect!</h1>
         <div className="contactInfo">
-        <h4>You Can Reach Me At:</h4>
           {/* First Column */}
           <ul className="social">
             <li>
@@ -164,7 +163,7 @@ const ContactStyle = styled.div`
   }
   }
   .contactInfo {
-    background-color: RGBA(23, 23, 23);
+    background: RGBA(23, 23, 23);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -178,7 +177,6 @@ const ContactStyle = styled.div`
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      margin-top: 1rem;
     }
   }
 
@@ -187,17 +185,42 @@ const ContactStyle = styled.div`
   @media only screen 
 and (min-device-width : 200px) 
 and (max-device-width : 1024px) {
+
+  background-attachment: fixed;
+
+
+  h1{
+    display: flex;
+    text-align: center;
+  }
+
+
+
+  .contactContainer{
+    height: 100vh;
+  }
         .contactInfo {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;}
+    flex-direction: column;
     text-align: center;
+    width: 90%;
+    
+    }
+
+
+    
     li{
-      display: flex;
-      text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+      
     }
   }
+
+
 
   .title{
     display: flex;
