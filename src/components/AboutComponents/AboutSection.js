@@ -11,8 +11,8 @@ const AboutSection = () => {
           <h2>About Me</h2>
           <p>
             I am a 30 year old currently living in New Jersey. With over 10
-            years in the Hopitality business, I am looking to change careers.
-            Currently attending a Full stack development coding bootcamp through
+            years of experience in restaurant hospitality. I am looking to change careers.
+            Recently finished a Full stack web development bootcamp through
             Rutgers University.
           </p>
         </div>
@@ -31,11 +31,11 @@ const AboutSection = () => {
 export default AboutSection;
 
 const AboutMeStyle = styled.div`
-  background: #000400;
+  background: rgb(0,4,0);
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 80vh;
   color: whitesmoke;
   padding-left: 10%;
 

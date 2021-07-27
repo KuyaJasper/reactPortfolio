@@ -154,7 +154,7 @@ const ContactStyle = styled.div`
   }
 
   .contactContainer {
-    height: 100vh;
+    height: 80vh;
     display: flex;
     background: black;
     align-items: center;
@@ -172,8 +172,8 @@ const ContactStyle = styled.div`
     border-radius: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    width: 60%;
-    height: 80%;
+    width: 40%;
+    height: 60%;
     .social{
       display: flex;
       flex-wrap: wrap;
@@ -193,6 +193,8 @@ and (max-device-width : 1024px) {
     justify-content: center;
     flex-direction: column;}
     text-align: center;
+    width: 60%;
+    height: 80%;
 
     li{
       display: flex;
