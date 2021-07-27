@@ -62,6 +62,7 @@ and (max-device-width : 720px) {
     justify-content: center;
     flex-direction: column;}
     text-align: center;
+    background-attachment: fixed;
   }
 
   .title{

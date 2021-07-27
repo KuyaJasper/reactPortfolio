@@ -186,7 +186,10 @@ const ContactStyle = styled.div`
 and (min-device-width : 200px) 
 and (max-device-width : 1024px) {
 
-  background-attachment: fixed;
+  .titleContainer{
+    background-attachment: fixed;
+
+  }
 
 
   h1{
