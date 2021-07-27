@@ -25,7 +25,7 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
-max-height: 100%;
+min-height: 100%;
 height: 100vh;
 display: flex;
 flex-direction: column;
@@ -72,7 +72,8 @@ justify-content: center;
   @media only screen 
 and (min-device-width : 200px) 
 and (max-device-width : 768px) {
-  background-attachment: fixed;
+
+  background-size: auto 100%;
 
         .Jasper {
 font-size: 5rem;
