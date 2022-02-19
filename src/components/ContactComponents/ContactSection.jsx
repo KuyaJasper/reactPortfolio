@@ -86,7 +86,7 @@ const ContactSection = () => {
             <li>
               <a
                 className="github"
-                href="https://drive.google.com/file/d/1FqT6SwR3VUuAjfcKzZZHwo-WnJyAXLPz/view?usp=sharing"
+                href="https://docs.google.com/document/d/1RABlXl07-of8ScHao3MVXv5AH3COzHFLGd18hXKoOd4/edit?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
