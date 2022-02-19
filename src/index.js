@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {HashRouter} from "react-router-dom";
 
 
+
 ReactDOM.render(
   <React.StrictMode>
     <HashRouter basename="/">

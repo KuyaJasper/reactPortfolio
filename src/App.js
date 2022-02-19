@@ -15,6 +15,7 @@ import { Switch, Route, useLocation } from "react-router-dom";
 function App() {
   const location = useLocation();
 
+
   return (
     <div className="App">
       <GlobalStyle/>
