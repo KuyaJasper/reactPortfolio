@@ -20,10 +20,10 @@ const ContactSection = () => {
         <h1>Let's Connect!</h1>
         <div className="contactInfo">
           {/* First Column */}
-          <ul className="social">
+          <ul className="social1">
             <li>
               <FontAwesomeIcon icon={faUser} size="3x" color="whitesmoke" />
-              <span>Jasper Abarquez</span>
+              <br/>Jasper Abarquez
             </li>
             <li>
               <FontAwesomeIcon
@@ -31,7 +31,7 @@ const ContactSection = () => {
                 size="3x"
                 color="whitesmoke"
               />
-              <span>(908)-472-2099</span>
+              <br/>(908)-472-2099
             </li>
             <li>
               <a
@@ -44,19 +44,12 @@ const ContactSection = () => {
                   size="3x"
                   color="whitesmoke"
                 />
-                <span>abarquezj1@gmail.com</span>
+                <br/>abarquezj1@gmail.com
 
               </a>
             </li>
-            <li>
-              <FontAwesomeIcon
-                icon={faGlobeAmericas}
-                size="3x"
-                color="whitesmoke"
-              />
-              <span>Edison, New Jersey</span>
-            </li>
-
+            </ul>
+            <ul className="social2">
             <li>
               <a
                 className="linkedin"
@@ -66,7 +59,7 @@ const ContactSection = () => {
               >
                 <FontAwesomeIcon icon={faLinkedin} size="3x" color="blue" />
               </a>
-              <span>LinkedIn</span>
+              <br/> LinkedIn
             </li>
             <li>
               <a
@@ -80,8 +73,7 @@ const ContactSection = () => {
                   size="3x"
                   color="rgb(220,20,60)"
                 />
-              </a>
-              <span>KuyaJasper</span>
+              </a> <br/>KuyaJasper
             </li>
             <li>
               <a
@@ -91,7 +83,7 @@ const ContactSection = () => {
                 rel="noreferrer"
               >
                 <FontAwesomeIcon icon={faFile} size="3x" color="whitesmoke" />
-                <span>View Resume</span>
+                <br/>View Resume
               </a>
             </li>
           </ul>
@@ -104,6 +96,7 @@ export default ContactSection;
 
 const ContactStyle = styled.div`
   color: whitesmoke;
+
 
   .linkStyle {
     padding-left: 1rem;
@@ -165,17 +158,23 @@ const ContactStyle = styled.div`
   .contactInfo {
     background: RGBA(23, 23, 23);
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     border-radius: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     width: 40%;
     height: 60%;
-    .social{
+    .social1{
       display: flex;
       flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .social2{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
       justify-content: center;
     }
   }
@@ -197,38 +196,30 @@ and (max-device-width : 1024px) {
     text-align: center;
   }
 
-
-
-  .contactContainer{
-    height: 100vh;
+  .contactInfo{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  width: 90%;
+  .social1{
+    width: 50%;
+    margin-right: 2rem;
   }
-        .contactInfo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    width: 90%;
+  .social2{
+    width: 50%;
     
-    }
-
-
-    
-    li{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-      
-    }
   }
-
+}
 
 
   .title{
     display: flex;
     font-size: 5rem;
   }
+
+      
+  }
+
 
   
 `;

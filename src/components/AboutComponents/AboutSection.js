@@ -1,11 +1,10 @@
 import React from "react";
-import Selfie from "../../Assets/HawaiianSelfie.jpg";
+import Selfie from "../../Assets/ProfilePicture.jpg";
 import styled from "styled-components";
 
 
 const AboutSection = () => {
   return (
-    <div>
       <AboutMeStyle>
         <div className="description">
           <h2>About Me</h2>
@@ -24,7 +23,6 @@ const AboutSection = () => {
           />
         </div>
       </AboutMeStyle>
-    </div>
   );
 };
 
@@ -34,7 +32,6 @@ const AboutMeStyle = styled.div`
   background: rgb(0,4,0);
   display: flex;
   align-items: center;
-  justify-content: center;
   height: 80vh;
   color: whitesmoke;
   padding-left: 10%;
@@ -45,8 +42,10 @@ const AboutMeStyle = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     border-radius: 1rem;
-    min-width: 50%;
+    width: 50%;
+    height: 40%;
     
     
   }
@@ -56,6 +55,7 @@ const AboutMeStyle = styled.div`
     margin-bottom: 1rem;
     display: flex;
     justify-content: center;
+    width: 50%;
     
   }
   .HawaiianSelfie {
@@ -65,10 +65,15 @@ const AboutMeStyle = styled.div`
   }
 
   p{
-    padding-left: 1rem;
     display: flex;
     align-items: center;
     text-align: center;
+    flex-shrink: inherit;
+  }
+
+  h2{
+    display: flex;
+    flex-shrink: inherit;
   }
 
 
