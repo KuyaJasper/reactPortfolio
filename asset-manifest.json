@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/reactPortfolio/static/js/main.0da92fe8.chunk.js",
-    "main.js.map": "/reactPortfolio/static/js/main.0da92fe8.chunk.js.map",
+    "main.js": "/reactPortfolio/static/js/main.75670d8e.chunk.js",
+    "main.js.map": "/reactPortfolio/static/js/main.75670d8e.chunk.js.map",
     "runtime-main.js": "/reactPortfolio/static/js/runtime-main.946229b0.js",
     "runtime-main.js.map": "/reactPortfolio/static/js/runtime-main.946229b0.js.map",
     "static/css/2.4be38407.chunk.css": "/reactPortfolio/static/css/2.4be38407.chunk.css",
-    "static/js/2.70fa54f8.chunk.js": "/reactPortfolio/static/js/2.70fa54f8.chunk.js",
-    "static/js/2.70fa54f8.chunk.js.map": "/reactPortfolio/static/js/2.70fa54f8.chunk.js.map",
+    "static/js/2.82ba9055.chunk.js": "/reactPortfolio/static/js/2.82ba9055.chunk.js",
+    "static/js/2.82ba9055.chunk.js.map": "/reactPortfolio/static/js/2.82ba9055.chunk.js.map",
     "index.html": "/reactPortfolio/index.html",
     "static/css/2.4be38407.chunk.css.map": "/reactPortfolio/static/css/2.4be38407.chunk.css.map",
-    "static/js/2.70fa54f8.chunk.js.LICENSE.txt": "/reactPortfolio/static/js/2.70fa54f8.chunk.js.LICENSE.txt",
+    "static/js/2.82ba9055.chunk.js.LICENSE.txt": "/reactPortfolio/static/js/2.82ba9055.chunk.js.LICENSE.txt",
     "static/media/CodeQuiz.5809e350.png": "/reactPortfolio/static/media/CodeQuiz.5809e350.png",
     "static/media/DayPlanner.7a3e613a.jpg": "/reactPortfolio/static/media/DayPlanner.7a3e613a.jpg",
-    "static/media/HawaiianSelfie.b5adfdd8.jpg": "/reactPortfolio/static/media/HawaiianSelfie.b5adfdd8.jpg",
     "static/media/LanternNight.ca56dffc.jpg": "/reactPortfolio/static/media/LanternNight.ca56dffc.jpg",
     "static/media/LanternSunrise.a231f129.jpg": "/reactPortfolio/static/media/LanternSunrise.a231f129.jpg",
     "static/media/LanternSunset.21b37656.jpg": "/reactPortfolio/static/media/LanternSunset.21b37656.jpg",
     "static/media/Music Player.de229d9d.png": "/reactPortfolio/static/media/Music Player.de229d9d.png",
+    "static/media/ProfilePicture.672bcf85.jpg": "/reactPortfolio/static/media/ProfilePicture.672bcf85.jpg",
     "static/media/TechBlog.4c929683.png": "/reactPortfolio/static/media/TechBlog.4c929683.png",
     "static/media/pokemonProject.00ff6f86.png": "/reactPortfolio/static/media/pokemonProject.00ff6f86.png",
     "static/media/weatherDashboard.634c81a1.png": "/reactPortfolio/static/media/weatherDashboard.634c81a1.png"
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.946229b0.js",
     "static/css/2.4be38407.chunk.css",
-    "static/js/2.70fa54f8.chunk.js",
-    "static/js/main.0da92fe8.chunk.js"
+    "static/js/2.82ba9055.chunk.js",
+    "static/js/main.75670d8e.chunk.js"
   ]
 }
