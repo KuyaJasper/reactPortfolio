@@ -6,7 +6,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 //Project Images
 import Pokemon from "../../Assets/projectPhotos/pokemonProject.png";
 import DayPlanner from "../../Assets/projectPhotos/DayPlanner.jpg";
-import Discography from "../../Assets/projectPhotos/Discography.jpg";
+import TechBlog from "../../Assets/projectPhotos/TechBlog.png";
 import Weather from "../../Assets/projectPhotos/weatherDashboard.png";
 import CodeQuiz from "../../Assets/projectPhotos/CodeQuiz.png";
 import MusicPlayer from "../../Assets/projectPhotos/Music Player.png";
@@ -60,12 +60,12 @@ const ProjectCards = () => {
 
         {/* Project 3 */}
         <div className="projectCard">
-          <a href="https://thebadams.github.io/music-project/">
-            <img src={Discography} alt="Discography Project" />
+          <a href="https://github.com/KuyaJasper/Tech-Blog">
+            <img src={TechBlog} alt="Tech blog" />
           </a>
           <div className="description">
             <a
-              href="https://github.com/thebadams/music-project"
+              href="https://kuyajasper-techblog.herokuapp.com/"
               className="cardTitle"
             >
               <FontAwesomeIcon
@@ -73,11 +73,10 @@ const ProjectCards = () => {
                 size="1x"
                 color="rgb(220,20,60)"
               />
-              <span>Discography</span>
+              <span>Tech Blog</span>
             </a>
             <p>
-              Search through different albums discographies and mark your
-              favorites
+              Create your own user name and password to create or delete blogs.
             </p>
           </div>
         </div>
