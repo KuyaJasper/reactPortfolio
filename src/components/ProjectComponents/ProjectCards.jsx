@@ -60,12 +60,12 @@ const ProjectCards = () => {
 
         {/* Project 3 */}
         <div className="projectCard">
-          <a href="https://github.com/KuyaJasper/Tech-Blog">
+          <a href="https://kuyajasper-techblog.herokuapp.com/">
             <img src={TechBlog} alt="Tech blog" />
           </a>
           <div className="description">
             <a
-              href="https://kuyajasper-techblog.herokuapp.com/"
+              href="https://github.com/KuyaJasper/Tech-Blog"
               className="cardTitle"
             >
               <FontAwesomeIcon
