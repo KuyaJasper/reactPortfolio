@@ -5,7 +5,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 //Project Images
 import Pokemon from "../../Assets/projectPhotos/pokemonProject.png";
-import DayPlanner from "../../Assets/projectPhotos/DayPlanner.jpg";
+import Foodies from "../../Assets/projectPhotos/foodiesD.png";
 import TechBlog from "../../Assets/projectPhotos/TechBlog.png";
 import Weather from "../../Assets/projectPhotos/weatherDashboard.png";
 import CodeQuiz from "../../Assets/projectPhotos/CodeQuiz.png";
@@ -39,12 +39,12 @@ const ProjectCards = () => {
         {/* Project 2  */}
 
         <div className="projectCard">
-          <a href="https://kuyajasper.github.io/Work-Day-Scheduler/">
-            <img src={DayPlanner} alt="Day Planner Project" />
+          <a href="https://kuyajasper.github.io/food-app">
+            <img src={Foodies} alt="FoodiesDelight Project" />
           </a>
           <div className="description">
             <a
-              href="https://github.com/KuyaJasper/Work-Day-Scheduler"
+              href="https://github.com/KuyaJasper/food-app"
               className="cardTitle"
             >
               <FontAwesomeIcon
@@ -52,9 +52,9 @@ const ProjectCards = () => {
                 size="1x"
                 color="rgb(220,20,60)"
               />
-              <span>Work Day Scheduler</span>
+              <span>Foodies Delight</span>
             </a>
-            <p>Plan your week with an easy to use scheduler</p>
+            <p>Find recipies for any cuisine.</p>
           </div>
         </div>
 
